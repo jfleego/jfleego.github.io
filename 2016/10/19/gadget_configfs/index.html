@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="USB," />
 
 
 
@@ -84,15 +84,16 @@
 
 
 
-<meta name="description" content="live a colorful life">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Welcome">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="&amp;#x6982;&amp;#x8FF0;A USB Linux Gadget is a device which has a UDC (USB Device Controller) and canbe connected to a USB Host to extend it with additional functions like a serialport or a mass storage capa">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Linux gadget configured through configfs">
+<meta property="og:url" content="http://yoursite.com/2016/10/19/gadget_configfs/index.html">
 <meta property="og:site_name" content="Welcome">
-<meta property="og:description" content="live a colorful life">
+<meta property="og:description" content="&amp;#x6982;&amp;#x8FF0;A USB Linux Gadget is a device which has a UDC (USB Device Controller) and canbe connected to a USB Host to extend it with additional functions like a serialport or a mass storage capa">
+<meta property="og:updated_time" content="2016-10-19T08:32:43.212Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Welcome">
-<meta name="twitter:description" content="live a colorful life">
+<meta name="twitter:title" content="Linux gadget configured through configfs">
+<meta name="twitter:description" content="&amp;#x6982;&amp;#x8FF0;A USB Linux Gadget is a device which has a UDC (USB Device Controller) and canbe connected to a USB Host to extend it with additional functions like a serialport or a mass storage capa">
 
 
 
@@ -113,10 +114,10 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2016/10/19/gadget_configfs/"/>
 
 
-  <title> Welcome </title>
+  <title> Linux gadget configured through configfs | Welcome </title>
 </head>
 
 <body itemscope itemtype="//schema.org/WebPage" lang="zh-Hans">
@@ -147,9 +148,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="//schema.org/WPHeader">
@@ -236,9 +235,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -258,10 +257,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2016/10/19/gadget_configfs/" itemprop="url">
-                  Linux gadget configured through configfs
-                </a>
+                Linux gadget configured through configfs
               
             
           </h1>
@@ -308,9 +304,7 @@
       
 
       
-        
-          
-            <h1 id="&#x6982;&#x8FF0;"><a href="#&#x6982;&#x8FF0;" class="headerlink" title="&#x6982;&#x8FF0;"></a>&#x6982;&#x8FF0;</h1><p>A USB Linux Gadget is a device which has a UDC (USB Device Controller) and can<br>be connected to a USB Host to extend it with additional functions like a serial<br>port or a mass storage capability.</p>
+        <h1 id="&#x6982;&#x8FF0;"><a href="#&#x6982;&#x8FF0;" class="headerlink" title="&#x6982;&#x8FF0;"></a>&#x6982;&#x8FF0;</h1><p>A USB Linux Gadget is a device which has a UDC (USB Device Controller) and can<br>be connected to a USB Host to extend it with additional functions like a serial<br>port or a mass storage capability.</p>
 <p>A gadget is seen by its host as a set of configurations, each of which contains<br>a number of interfaces which, from the gadget&#x2019;s perspective, are known as<br>functions, each function representing e.g. a serial connection or a SCSI disk.</p>
 <p>Linux provides a number of functions for gadgets to use.</p>
 <p>Creating a gadget means deciding what configurations there will be<br>and which functions each configuration will provide.</p>
@@ -365,293 +359,59 @@ cs             |  (*show)(cs *, buffer);          |
 </ol>
 <p>usb_get_function_instance(), which, in turn, calls request_module.<br>So, provided that modprobe works, modules for particular functions<br>are loaded automatically. Please note that the converse is not true:<br>after a gadget is disabled and torn down, the modules remain loaded.</p>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
     <footer class="post-footer">
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/10/14/Blog-for-test/" itemprop="url">
-                  blog for test
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-10-14T10:38:44+08:00" content="2016-10-14">
-              2016-10-14
-            </time>
-          </span>
-
+        <div class="post-tags">
           
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/10/14/Blog-for-test/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/14/Blog-for-test/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
+            <a href="/tags/USB/" rel="tag">#USB</a>
           
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <h2 id="&#x6982;&#x8FF0;"><a href="#&#x6982;&#x8FF0;" class="headerlink" title="&#x6982;&#x8FF0;"></a>&#x6982;&#x8FF0;</h2><p>&#x7B2C;&#x4E00;&#x7BC7;&#x6587;&#x6863;&#xFF0C;&#x7528;&#x4E8E;&#x6D4B;&#x8BD5;hexo&#x5BF9;markdown&#x7684;&#x652F;&#x6301;&#x3002;</p>
-<h2 id="&#x6D4B;&#x8BD5;&#x4EE3;&#x7801;&#x5757;"><a href="#&#x6D4B;&#x8BD5;&#x4EE3;&#x7801;&#x5757;" class="headerlink" title="&#x6D4B;&#x8BD5;&#x4EE3;&#x7801;&#x5757;"></a>&#x6D4B;&#x8BD5;&#x4EE3;&#x7801;&#x5757;</h2><p>&#x6D4B;&#x8BD5;c<br><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">int</span> i;</div><div class="line"><span class="keyword">int</span> j = <span class="number">2</span>;</div><div class="line"><span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; <span class="number">100</span>; i++) {</div><div class="line">    j += i;</div><div class="line">}</div><div class="line">print(<span class="string">&quot;j = %d\n&quot;</span>, j);</div></pre></td></tr></table></figure></p>
-<p>&#x6D4B;&#x8BD5;python<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">10</span>)</div><div class="line">    <span class="keyword">print</span> i</div></pre></td></tr></table></figure></p>
-<p>&#x6D4B;&#x8BD5;bash<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-get install sl</div></pre></td></tr></table></figure></p>
-<h2 id="&#x4E8C;&#x7EA7;&#x6807;&#x9898;"><a href="#&#x4E8C;&#x7EA7;&#x6807;&#x9898;" class="headerlink" title="&#x4E8C;&#x7EA7;&#x6807;&#x9898;"></a>&#x4E8C;&#x7EA7;&#x6807;&#x9898;</h2><h3 id="&#x4E09;&#x7EA7;&#x6807;&#x9898;"><a href="#&#x4E09;&#x7EA7;&#x6807;&#x9898;" class="headerlink" title="&#x4E09;&#x7EA7;&#x6807;&#x9898;"></a>&#x4E09;&#x7EA7;&#x6807;&#x9898;</h3><blockquote>
-<p>&#x8FD9;&#x91CC;&#x662F;&#x5F15;&#x7528;</p>
-</blockquote>
-<p><em>&#x8FD9;&#x91CC;&#x662F;&#x659C;&#x4F53;</em></p>
-<p><strong>&#x8FD9;&#x91CC;&#x662F;&#x7C97;&#x4F53;</strong></p>
-<h3 id="&#x5206;&#x5272;&#x7EBF;"><a href="#&#x5206;&#x5272;&#x7EBF;" class="headerlink" title="&#x5206;&#x5272;&#x7EBF;"></a>&#x5206;&#x5272;&#x7EBF;</h3><hr>
-<h3 id="&#x65E0;&#x5E8F;&#x5217;&#x8868;"><a href="#&#x65E0;&#x5E8F;&#x5217;&#x8868;" class="headerlink" title="&#x65E0;&#x5E8F;&#x5217;&#x8868;"></a>&#x65E0;&#x5E8F;&#x5217;&#x8868;</h3><ul>
-<li>1</li>
-<li>2</li>
-<li>3</li>
-</ul>
-<h3 id="&#x6709;&#x5E8F;&#x5217;&#x8868;"><a href="#&#x6709;&#x5E8F;&#x5217;&#x8868;" class="headerlink" title="&#x6709;&#x5E8F;&#x5217;&#x8868;"></a>&#x6709;&#x5E8F;&#x5217;&#x8868;</h3><ol>
-<li>1</li>
-<li>2</li>
-<li>3</li>
-</ol>
-<h3 id="&#x8868;&#x683C;"><a href="#&#x8868;&#x683C;" class="headerlink" title="&#x8868;&#x683C;"></a>&#x8868;&#x683C;</h3><table>
-<thead>
-<tr>
-<th>table</th>
-<th style="text-align:center">Are</th>
-<th style="text-align:right">Cool</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>col 3 is</td>
-<td style="text-align:center">right-aligned</td>
-<td style="text-align:right">$1600</td>
-</tr>
-<tr>
-<td>col 2 is</td>
-<td style="text-align:center">centered</td>
-<td style="text-align:right">$12</td>
-</tr>
-<tr>
-<td>zebra stripes</td>
-<td style="text-align:center">are neat</td>
-<td style="text-align:right">$1</td>
-</tr>
-</tbody>
-</table>
-<h3 id="&#x6D4B;&#x8BD5;&#x94FE;&#x63A5;"><a href="#&#x6D4B;&#x8BD5;&#x94FE;&#x63A5;" class="headerlink" title="&#x6D4B;&#x8BD5;&#x94FE;&#x63A5;"></a>&#x6D4B;&#x8BD5;&#x94FE;&#x63A5;</h3><p><a href="https://www.baidu.com" target="_blank" rel="external">&#x767E;&#x5EA6;</a></p>
-<h3 id="&#x63D2;&#x5165;&#x56FE;&#x7247;"><a href="#&#x63D2;&#x5165;&#x56FE;&#x7247;" class="headerlink" title="&#x63D2;&#x5165;&#x56FE;&#x7247;"></a>&#x63D2;&#x5165;&#x56FE;&#x7247;</h3><p><img src="/2016/10/14/Blog-for-test/source/uploads/avatr.jpg" alt="img"></p>
-<h3 id="&#x5176;&#x4F59;&#x5F85;&#x6D4B;&#x8BD5;"><a href="#&#x5176;&#x4F59;&#x5F85;&#x6D4B;&#x8BD5;" class="headerlink" title="&#x5176;&#x4F59;&#x5F85;&#x6D4B;&#x8BD5;"></a>&#x5176;&#x4F59;&#x5F85;&#x6D4B;&#x8BD5;</h3>
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/10/14/Blog-for-test/" rel="next" title="blog for test">
+                <i class="fa fa-chevron-left"></i> blog for test
+              </a>
             
-              
-                
-                <a class="post-title-link" href="/2016/10/13/hello-world/" itemprop="url">
-                  Hello World
-                </a>
-              
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-10-13T10:20:32+08:00" content="2016-10-13">
-              2016-10-13
-            </time>
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/10/13/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/13/hello-world/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
+          </div>
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -659,6 +419,14 @@ cs             |  (*show)(cs *, buffer);          |
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/10/19/gadget_configfs/"
+           data-title="Linux gadget configured through configfs" data-url="http://yoursite.com/2016/10/19/gadget_configfs/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -678,8 +446,17 @@ cs             |  (*show)(cs *, buffer);          |
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="//schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/uploads/avatar.jpg"
@@ -722,6 +499,17 @@ cs             |  (*show)(cs *, buffer);          |
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#概述"><span class="nav-number">1.</span> <span class="nav-text">概述</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#前提"><span class="nav-number">2.</span> <span class="nav-text">前提</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#使用"><span class="nav-number">3.</span> <span class="nav-text">使用</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#创建gadgets实例"><span class="nav-number">3.1.</span> <span class="nav-text">创建gadgets实例</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#创建USB配置"><span class="nav-number">3.2.</span> <span class="nav-text">创建USB配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#创建function"><span class="nav-number">3.3.</span> <span class="nav-text">创建function</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#disable-the-gadget"><span class="nav-number">3.4.</span> <span class="nav-text">disable the gadget</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#删除USB功能和配置"><span class="nav-number">3.5.</span> <span class="nav-text">删除USB功能和配置</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Implementation-design"><span class="nav-number">4.</span> <span class="nav-text">Implementation design</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -825,6 +613,10 @@ cs             |  (*show)(cs *, buffer);          |
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.2"></script>
+
+
 
   
 
